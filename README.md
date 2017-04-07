@@ -1,22 +1,19 @@
-## 3주차 과제 :  신이나를만들때
+**더 어려운 게임을 해보고 싶었지만 아직 코드를 짜는 것이 어려워서 예시로 주었던 "신이 나를 만들때"를 만들어 보았다.**
+1. 레일즈에 대한 개념이 수업시간에 듣기 했지만 아직까지 어려워서 영상을 더 찾아보면서 따라해보았다.
+참고영상
+1) https://www.youtube.com/watch?v=5TWl9SoC_fc&index=4&list=PLWO_EXTnt3sO9SOgCaLCf-WECN6Xk7vQ6
+2) https://www.youtube.com/watch?v=YhzDvI-61Mk
 
-* 신이 나를 만들때
-![](http://thumbnail.egloos.net/1000x0/http://pds26.egloos.com/pds/201506/11/09/a0014909_557868ff57992.jpg)
+2. 저번 자기소개서 MVC모델로 바꾸는 것에서도 폰트 적용하는 것을 실패해서 이번에는 성공하고 싶어서 여러 방법을 시도해 보다가
+https://www.youtube.com/watch?v=MrQnAg5YG3g
+영상을 보고 드디어 성공했다. 자기소개서 만드는 것 처럼 링크를 따와서 적용하는 것은 아직 모르고 폰트파일을 다운받아 적용하는 것만 성공했다. 
 
-	* **VC**를 이용해서 만든다!
-	* 실제 서비스처럼 **HTML&CSS/부트스트랩/템플릿** 등을 활용하여 만들어 보자.
-	* 이 외에 다른 게임으로 만들고 싶으면 만들어도 됩니다~ (신이 나를 만들때는 예시일 뿐!)
+3. 결과 페이지에서 다시 해보기 버튼을 누르면 홈페이지로 가는 기능을 만들고 싶었는데 CRUD에 대해 이해가 잘 되지 않아 성공하지 못했다. 
 
-
-#### 유의사항
-- 신이 나를 만들때 말고 여러분이 만들고 싶은 게임이 있다면 그 게음을 만들어주세요~
-- 과제 제출 기한을 지켜주세요.
-- 반드시 **branch** 생성해서 해주세요~
-
-## Author
-
-written by [정다혜](https://dh00023.github.io).
-
-![](https://avatars.githubusercontent.com/dh00023?v=2&s=100)
-
-<a href="https://dh00023.github.io" target="_blank" class="btn btn-black"><i class="fa fa-github fa-lg"></i> Visit on Github Page &rarr;</a>
+**다시 해볼 것 들**
+- CRUD에 관해 더 익혀 와서 게임에 적용해 보기
+ http://konkuk.likelion.org/material-w3-crud (멋사CRUD보조자료)
+ http://guides.rorlab.org/
+ 퍼펙트 루비온레일즈
+ 
+- 루비공부 더하기! (좀 더 복잡한 게임 코드를 짤 수 있도록)

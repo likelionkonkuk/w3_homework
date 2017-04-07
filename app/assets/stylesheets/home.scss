@@ -1,0 +1,59 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// home폴더 내에 있는 모든 파일에 적용시키고 싶은 css를 적는다.
+@font-face{
+    font-family:"Manbal";
+    src: url('/assets/Manbal');
+}
+.mainmain {
+    font-family:'Manbal', serif;
+}
+.title {
+    font-family:'Manbal', serif;
+    color:white;
+    background-color: rgb(51,51,51);
+    font-size:40px;
+    margin-top:0px;
+    width:330px;
+    height:60px;
+    
+}
+.mainphoto {
+    width:800px;
+    height:400px;
+}
+.form-control{
+    width:200px;
+}
+.godtext {
+    font-size:30px;
+    font-family:'Manbal', serif;
+
+}
+.container {
+    border-style: solid;
+    border-width: 10px;
+    width :1000px;
+    height:500px;
+    margin-top:20px;
+    padding-top:0px;
+}
+.god{
+    width:200px;
+    height:250px;
+}
+.one {
+    color: rgb(230,99,133);
+}
+
+.instance1 {
+    color: rgb(23,146,239);
+}
+.instance2 {
+    color: rgb(29,247,30);
+}
+.instance3 {
+    color: rgb(255,41,42);
+}
