@@ -14,3 +14,31 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+/*
+    $(document).ready(function (){
+        $("#Home").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#Home").offset().top
+            }, 1000);
+        });
+    });
+
+    $(document).ready(function (){
+        $("#게임하기").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#gogogame").offset().top
+            }, 1000);
+        });
+    });
+
+
+    $(document).ready(function (){
+        $("#결과보기").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#footer").offset().top
+            }, 1000);
+        });
+    });
+*/

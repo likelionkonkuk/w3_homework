@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+
+/*main*/
+
+.top{
+    background: url("http://lh3.googleusercontent.com/OfWdEGHRM_1E4SlcO0VupMsEPaBxs-TwTdHsWb7rxEqeLf7vQpcXKHP5UDYneD7g4ztPfnNwnpB4YZycQLUcBYn_JW1DPJtiTCk=s640-l65") no-repeat center 0;
+     background-color: #394A5F;
+     color: black;
+     padding: 300px 300px;
+     margin-bottom: 0;
+     background-size: cover;
+     background-position: center center;
+}
+.top  .jumbotron {
+    background-color:transparent;
+}
+.top .jumbotron {
+    width:400px;
+    text-align:center;
+}
+
+.sectiontitle{
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    color:rgb(64,64,64);
+    margin-bottom: 70px;
+    margin-top:40px;
+}
+
+.game{
+    background-color:white;
+    padding:20px 10% 10% 20px;
+}
+
+#centerimage{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
