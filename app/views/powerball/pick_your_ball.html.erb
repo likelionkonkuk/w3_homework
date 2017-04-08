@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>일확천금의 기회 POWERBALL! 당신의 결과는?</h1>
+    <p><%= "당첨 일반볼 번호는 #{@drw_normalball} 이고, 파워볼 번호는 #{@drw_powerball} 입니다. 배율은 #{@magnification}!!" %></p>
+	<!-- 밑에 추첨한 로또 번호, 겹치는 번호, 결과를 출력해주세요.-->
+    <p><%= "당신이 선택 한 일반볼은 #{@pick_normalball}!, 파워볼은 #{@pick_powerball} 맞은 번호는 일반볼 #{@correct_normalball}, 파워볼 #{@correct_powerball}, 갯수는 #{@count_correct_num}! 당신의 결과는 #{@result} 입니다."%>
+    <p><%= "당신이 받게될 금액은 #{@money}$입니다!" %></p>
+</div>
+<div class="container">
+	<%= link_to "다시 뽑기?", result_path %>
+</div>

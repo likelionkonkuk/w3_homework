@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'powerball/index'
+  get 'result' => 'powerball#pick_your_ball'
+  root 'powerball#index'
 end
