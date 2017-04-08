@@ -1,0 +1,39 @@
+<div class="jumbotron">
+    <h1 class="title">Let's make your 
+    <span class="p">PI</span>
+    <span class="z">ZZ</span>
+    <span class="a">A!</span>
+    </h1>
+</div>
+
+<div class="pic">
+    <img class="dough" src="<%= image_url(@doughimg) %>">
+    <img class="sauce" src="<%= image_url(@sauceimg) %>">
+    <img class="topping" src="<%= image_url(@toppingimg) %>">
+</div>
+
+<div class="name">
+    <span class="doughKey"><%= @doughKey%></span>
+    <span class="sauceKey"><%= @sauceKey%></span>
+    <span class="toppingKey"><%= @toppingKey%></span>
+</div>
+
+<div class="ta-da">
+    ↓↓↓Here is your completed PIZZA↓↓↓
+</div>
+
+<div class="complete">
+    <div class="comDough">
+        <img src="<%= image_url(@doughimg) %>">
+    </div>
+    <div class="comSauce">
+        <img class="comSauceImg" src="<%= image_url(@sauceimg) %>">
+    </div>
+    <div class="comTopping">
+        <img class="comToppingImg" src="<%= image_url(@toppingimg) %>">
+    </div>
+</div>
+
+<div class="final_word">
+    <h1 class="fWord"><%= @final_word%></h1>
+</div>

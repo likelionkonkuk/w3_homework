@@ -1,15 +1,87 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+.title {
+    text-align: center;
+    font-size: 80px;
+    font-family: impact;
+}
+.p {
+    color: red;
+}
+.z {
+    color: blue;
+}
+.a {
+    color: green;
+}
+
+.pic {
+    text-align: center;
+}
+
+.dough {
+    width: 20%;
+}
+.sauce {
+    width: 15%;
+}
+.topping {
+    width: 15%;
+}
+
+.name {
+    text-align: center;
+}
+
+.doughKey {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sauceKey {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.toppingKey {
+    margin-left: 50px;
+}
+
+.ta-da {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.comDough {
+    display:block;
+    position:absolute;
+    top: 620px;
+    left: 30%;
+    right: auto;
+    z-index:1
+}
+.comSauce {
+    display:block;
+    position:absolute;
+    top: 650px;
+    left :35%;
+    z-index:2
+}
+.comSauceImg {
+    width: 300px;
+}
+.comTopping {
+    display:block;
+    position:absolute;
+    top: 635px;
+    left :30%;
+    z-index:3
+}
+.comToppingImg {
+    width: 400px;
+}
+
+.fWord {
+    margin-top: 38%;
+    text-align: center;
+    font-family: century;
+    font-size: 40px;
+}
