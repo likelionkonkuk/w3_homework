@@ -1,5 +1,7 @@
 # rails로 게임 만들기
 
+c9 주소 : https://w3-homework-hyunkyung12.c9users.io/
+
 ####만드려는 것
 주사위를 굴려 큰 값이 나오는사람이 이김,
 세번 이기면 게임종료
