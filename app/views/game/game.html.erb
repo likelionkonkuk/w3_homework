@@ -1,0 +1,29 @@
+<div class="title">
+    <p>DICE GAME</p>
+</div>
+
+<div class="bottom">
+    <div class="dice">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+            <p><%= @dice1+1 %></p>
+            <img src="<%= image_url(@dice_img1)%>">
+        </div>
+        <div class="col-md-5">
+            <p><%= @dice2+1 %></p>
+            <img src="<%= image_url(@dice_img2)%>">
+        <div class="col-md-1"></div>
+    </div>
+</div>
+
+
+<div class="result">
+    <div class="col-md-1"></div>
+    <div class="col-md-5"> 
+        <img id="face1" src="<%= image_url(@right)%>" >
+    </div>
+    <div class="col-md-5"> 
+        <img id="face2" src="<%= image_url(@left)%>">
+    </div>
+    <div class="col-md-1"></div>
+</div>
