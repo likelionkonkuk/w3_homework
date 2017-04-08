@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+.text1{margin-left: 160px;margin-top:70px;margin-bottom:10px;text-align:center;}
+.text2{margin-left: 85px;margin-top:70px;margin-bottom:10px;text-align:center;}
+.text3{margin-left: 125px;margin-top:70px;margin-bottom:10px;text-align:center;}
+
+.image{margin-top:00px;}
